@@ -90,13 +90,15 @@ button:hover{
     margin: 1% 0 2% 8%;
     list-style:disc;
 }
-a.link {
-    text-decoration: none;
-    color: rgb(21, 7, 220);
+
+
+a, a.link,a:visited, a:active {
+    text-decoration:none;
+    color: rgb(0, 22, 219);
 }
-a.link:hover {
+
+a:hover {
     font-style: italic;
-    text-decoration:dotted;
     transition: all 0.5s;
 }
 
